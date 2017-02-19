@@ -1,7 +1,7 @@
 This tutorial is about using bootstrap and customising it with sass.
 
 ##Setup 
-run : npm install 
+run : bower install 
 
 run: npm install -g live-server  
 
