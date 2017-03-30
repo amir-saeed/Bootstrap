@@ -1,0 +1,11 @@
+@import "customVariables";
+@import "functions";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap-compass";
+@import "../bower_components/font-awesome/scss/font-awesome";
+/*==========  Mobile First Method  ==========*/
+@import "resolutions/resolution320px";
+@import "resolutions/resolution480px";
+@import "resolutions/resolution768px";
+@import "resolutions/resolution992px";
+@import "resolutions/resolution1200px";

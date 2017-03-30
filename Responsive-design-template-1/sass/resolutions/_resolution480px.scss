@@ -1,0 +1,16 @@
+ /* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    .main {
+        .employments {
+            .thumbs { 
+                min-width:100px;   
+                min-height:50px;  
+                img {             
+                    max-height: 40px;
+                    display: inline;
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+}
