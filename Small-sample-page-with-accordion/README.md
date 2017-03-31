@@ -1,2 +1,3 @@
-# Core-Task1
-Assignment about zoopla property serach
+# Sample responsive page
+
+Simple responsive page with bootstrap grid
