@@ -1,0 +1,136 @@
+ /* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    body {
+      font: sans-serif;
+      font-size: 16px;
+    } 
+
+    h2 {
+      font-size: 21px;
+    }
+
+    .review {
+
+      &-display {
+          padding: 5px;     
+          
+          button {
+            border-radius: 1px;
+          }
+
+          &_origional {
+            padding: 5px;
+          }
+
+          &--person {
+              color:#B61364;
+              font-weight: bold; 
+              margin-right: 5px;
+          }
+
+          &--days {
+              color:#283533;
+          }
+
+          &_header {
+            padding: 5px;
+          }
+
+          &_body {
+              padding: 20px;
+              margin-top: 35px;
+              margin-bottom: 20px;
+              background-color: lighten( $main-colour-scheme, 15% ); 
+              border: 2px solid lighten( $main-colour-scheme, 15% );
+              border-radius: 10px;
+              box-shadow: 2px 2px 4px lighten( $main-colour-scheme, 15% );
+              color: #283533 ; 
+              position: relative;
+          }
+
+          &_body:after {
+              content: ' ';
+              position: absolute;
+              width: 0;
+              height: 0;
+              top:-20px;
+              left:30px;
+              border: 10px solid;
+              border-color:  transparent  transparent lighten( $main-colour-scheme, 15% ) lighten( $main-colour-scheme, 15% );
+          }
+
+          &_buttons {
+            button {
+              margin-right: 10px;
+              padding-left: 15px;
+              padding-right: 15px;
+            }
+            span {
+              color:#283533;  
+            }
+          }
+
+          &_write {            
+            padding-bottom: 25px;
+            border-bottom: 1px solid #EDF1EE  ;        
+          }           
+      }
+
+      /*
+      *  Write Section 
+      */
+      &-write {
+          &_origional {
+            padding: 5px;
+            H2 {
+              font-weight: bold;
+            }
+          }
+      }
+
+      /*
+      * General 
+      */
+
+      &--textarea-deco {
+
+          margin-top:45px;
+          position: relative;
+          background-color: ●	#FFF; 
+          border: 2px solid ●	#EDF1EE ;             
+          box-shadow: 2px 2px 4px ●	#EDF1EE;
+          border-radius: 10px;
+
+          textarea {              
+              width : 100%;
+              min-height: 55px;
+              border-radius: 10px;
+              border-color:#EDF1EE; 
+              padding-top:25px;
+              padding-left: 10px;
+              white-space: normal;
+              text-align: justify;
+          }         
+      } 
+
+      &--textarea-deco:after {            
+          content: ' ';
+          position: absolute;
+          width: 0;
+          height: 0;
+          top:-20px;
+          left:30px;         
+          border: 10px solid;
+          background:#ff9;
+          background-color: #FFF;
+          border-color: transparent transparent #EDF1EE #EDF1EE;            
+      }
+    }     
+}
+
+
+
+           
+              
+              
+              

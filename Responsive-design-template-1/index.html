@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Magestic Wines</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+    <header>
+        <h1></h1>
+    </header>
+    <!-- Review Section -->
+    <section class="review">
+        <!-- Review Display Section -->
+        <section class="review-display">
+            <div class="container">
+                <div class="row review-display_origional">
+                    <div class="col-xs-12">
+                        <div class="review-display_header">
+                            <span class="review-display--person">Jimbo</span>
+                            <span class="review-display--days">3 days ago</span>
+                        </div>
+                        <div class="review-display_body">
+
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                            make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                            typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
+                            of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                            software like Aldus PageMaker including versions of Lorem Ipsum.
+
+                        </div>
+                        <div class="review-display_buttons">
+                            <button class="btn btn-success">LIKE</button>
+                            <span>
+                            you and 5 other peoples like this
+                        </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row review-display_response">
+                    <div class="col-xs-11 col-xs-offset-1">
+                        <div class="review-display_header">
+                            <span class="review-display--person">John Thomas</span>
+                            <span class="review-display--days">yesterday</span>
+                        </div>
+                        <div class="review-display_body">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                            make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                            typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
+                            of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                            software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </div>
+                        <div>
+                            <button class="btn btn-default">LIKE</button>
+                            <span>
+                            you and 5 other peoples like this
+                        </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row review-display_write">
+                    <div class="col-xs-11 col-xs-offset-1">
+                        <div class="review--textarea-deco">
+                            <textarea id="txtSendComments" placeholder="Write a comment" aria-placeholder="Write a comment"></textarea>
+                            <button class="btn btn-success btn-block" onclick="Comments.myComments()">SEND</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- New Review Section -->
+        <section class="review-write">
+            <div class="container">
+                <div class="row review-write_origional">
+                    <div class="col-xs-12">
+                        <h2><span>WRITE YOUR OWN REVIEW</span></h2>
+                        <div class="review--textarea-deco">
+                            <textarea id="txtAddComments" placeholder="Write a comment" aria-placeholder="Write a comment"></textarea>
+                            <button class="btn btn-success btn-block" onclick="Comments.addComments()">LEAVE REVIEW</button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </section>
+    <footer>
+        <div class="container">
+            <p></p>
+        </div>
+    </footer>
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/scripts.js"></script>
+</body>
+
+</html>

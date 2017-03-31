@@ -12,7 +12,7 @@ $main-color: #d9520e;
 
 $icon-size: 60px;
 
-
+$main-colour-scheme: #D4B9C5  !default;
 
 //== Colors
 
@@ -38,7 +38,7 @@ $gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
 
 $brand-primary:         $main-color !default; // #337ab7
 
-$brand-success:         #5cb85c !default;
+$brand-success:         #B61364 !default;
 
 $brand-info:            #5bc0de !default;
 
@@ -320,7 +320,7 @@ $btn-primary-border:             darken($btn-primary-bg, 5%) !default;
 
 
 
-$btn-success-color:              #fff !default;
+$btn-success-color:              #FFF !default;
 
 $btn-success-bg:                 $brand-success !default;
 

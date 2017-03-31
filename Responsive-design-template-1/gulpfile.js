@@ -10,7 +10,6 @@ gulp.task('styles', function() {
 
     return gulp
         .src(config.sass)
-        //.pipe($.plumber())
         .pipe($.sass())
         .pipe($.autoprefixer({browsers: ['last 2 version','> 5%']}))
         .pipe(gulp.dest(config.dest));
@@ -18,7 +17,7 @@ gulp.task('styles', function() {
 
 gulp.task('clean-styles', function(done) {
     var files = config.dest + '/*.css';
-    //clean(files, done);
+    clean(files, done);
 });
 
 gulp.task('sass-watcher', function() {

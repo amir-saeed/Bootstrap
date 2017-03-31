@@ -1,0 +1,26 @@
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+    .review {
+        &--textarea-deco {
+            button {
+                width: 20%;
+                float: right;
+                border-radius:1px;
+                margin-top:5px;
+            }
+        }
+
+        &-write {
+            &_origional {
+                h2 {
+                    margin-top:-22px;
+                    text-align: center;
+                    span {
+                         background-color: #FFF;
+                    }
+                }
+            }
+        }
+    }   
+}
