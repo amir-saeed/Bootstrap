@@ -1,0 +1,65 @@
+@HeaderColour : skyblue;
+
+body { 
+    padding-top: 70px; 
+}
+
+h1 {
+    color : @HeaderColour;
+}
+
+email-lists {
+    padding-top: 80px;
+
+    &.panel-body .list-group-item {
+        padding: 0;
+        border: 1px solid #000;
+    }
+}
+
+.emails-container {
+    padding: 5px;
+    &.email-name {
+        padding: 5px 5px 5px 15px; 
+        font-size: 12px;
+        font-weight: bold;  
+    }
+
+    &.email-subject {
+        padding: 5px;    
+    }
+
+    &.email-subject span {
+        width: 100%;
+        float: left;
+        padding-bottom: 2px;
+    }
+
+    &.email-link {   
+        padding: 5px;    
+    }
+}
+
+.back-button {
+    padding: 10px;
+    color: red;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+section {
+    padding: 10px;
+}
+
+.email-canvas {
+    background-color: #ccc;
+    padding: 10px;
+}
+
+footer {
+    position : absolute;
+    bottom : 0;
+    height : 40px;
+    margin-top : 40px;
+}

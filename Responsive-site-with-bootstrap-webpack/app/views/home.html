@@ -1,0 +1,21 @@
+<section class="row">
+    <div class="col-xs-12 col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <ul class="list-group" >
+                    <li class="list-group-item" ng-repeat="item in vm.itemsList">
+                        <div class="emails-container row">
+                            <div data-ng-bind="item.name" class="email-name col-md-3 col-xs-3"></div>
+                            <div class="email-subject col-md-6 col-xs-6">
+                                <span data-ng-repeat="subject in item.subjects" data-ng-bind="subject" ></span>
+                            </div>
+                            <div class="email-link col-md-3 col-xs-3">
+                                <a class="btn btn-primary" ui-sref="details({ id:item.id })" href="" role="button">More</a>
+                            </div>
+                        </div>
+                    </li>          
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

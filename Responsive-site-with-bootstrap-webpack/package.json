@@ -1,0 +1,26 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Pure360 assignment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AMIR SAEED",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "^1.6.1",
+    "angular-mocks": "^1.6.1",
+    "angular-sanitize": "^1.6.1",
+    "angular-ui-router": "^0.4.2",
+    "bootstrap": "^3.3.7",
+    "gulp": "^3.9.1",
+    "jasmine-core": "^2.5.2",
+    "jquery": "^3.1.1",
+    "karma": "^1.4.1",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "webpack": "^2.2.1"
+  }
+}
