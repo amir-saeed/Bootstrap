@@ -1,4 +1,4 @@
-# Pure360 assignment
+# Responsive design with Angular, bootstrap, webpack, karma, jasmine
 
 ## How to run this project
 To run this project you need the following dependencies
